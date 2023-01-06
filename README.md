@@ -12,6 +12,7 @@ This app allows users to add and manage information about movies. With the app, 
 - Title
 - Opening text
 - Release date
+
 Once the information is entered, it is stored in a Firebase database through an API. Users can then retrieve this information from the database through a REST API.
 
 In the event that something goes wrong with the API, an error message will be displayed. A loading animation will also be shown until the data is successfully fetched.
