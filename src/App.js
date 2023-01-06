@@ -69,7 +69,8 @@ function App() {
     } catch (error) {
       let a = error.message;
       a = "something went wrong";
-      setError(a);    }
+      setError(a);
+    }
   }
 
   let content = <p className="no-movies">Found no movies.</p>;
