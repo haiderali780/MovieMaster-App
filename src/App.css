@@ -59,7 +59,29 @@ button:active {
 }
 
 .no-movies {
+  display: inline-block;
   text-align: center;
   font-size: 18px;
+  font-weight: bold;
   color: #666;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+}
+
+
+.error {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+  background-color: #fff0f0;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
 }
