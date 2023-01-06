@@ -27,3 +27,39 @@ button:active {
   background-color: #460897;
   border-color: #460897;
 }
+.loading {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.loading:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #333;
+  transform-origin: center;
+  animation: loading 0.5s linear infinite;
+  transition: border-color 0.25s ease-in-out;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.no-movies {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
