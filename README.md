@@ -17,9 +17,6 @@ Once the information is entered, it is stored in a Firebase database through an 
 
 In the event that something goes wrong with the API, an error message will be displayed. A loading animation will also be shown until the data is successfully fetched.
 
-
-
-
 ## How to use
 1. Clone the repository and navigate to the directory:
 - **git clone https://github.com/haiderali780/MovieMaster-App.git**
